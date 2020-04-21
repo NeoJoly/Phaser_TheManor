@@ -1,0 +1,17 @@
+@font-face {
+    font-family: insomnia;
+    src: url('fonts/insomnia.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: death markers;
+    src: url('fonts/death markers.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: sbitn;
+    src: url('fonts/sbitn.ttf');
+    font-weight: normal;
+}

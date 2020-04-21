@@ -1,0 +1,2 @@
+Bug non résolus :
+- Aller dans la pièce "MilieuDroite" en venant de la pièce "Milieu", après y être déjà allé, fait crasher le jeu (problème de collision)
