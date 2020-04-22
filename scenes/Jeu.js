@@ -9,7 +9,7 @@ var config = {
         }
     },
     scene: [
-      //Menu,
+      Menu,
       Preload,
       Piece_Milieu,
       Piece_MilieuDroite,
