@@ -180,9 +180,9 @@ class Piece_BasMilieu extends Phaser.Scene {
     ///////////////////////////********************************************************///////////////////////////
     ///////////////////////////********************************************************///////////////////////////
 
-    chauvesouris18 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(250,640),'chauve-souris').setVelocityX(250).setVelocityY(250).setBounce(1);
-    chauvesouris19 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(250,640),'chauve-souris').setVelocityX(300).setVelocityY(300).setBounce(1);
-    chauvesouris20 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(250,640),'chauve-souris').setVelocityX(350).setVelocityY(350).setBounce(1);
+    chauvesouris18 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(250,640),'chauve-souris').setVelocityX(100).setVelocityY(100).setBounce(1);
+    chauvesouris19 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(250,640),'chauve-souris').setVelocityX(125).setVelocityY(125).setBounce(1);
+    chauvesouris20 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(250,640),'chauve-souris').setVelocityX(150).setVelocityY(150).setBounce(1);
 
     this.anims.create({
       key:'anim_chauve-souris',

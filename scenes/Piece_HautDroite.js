@@ -176,8 +176,8 @@ class Piece_HautDroite extends Phaser.Scene {
     ///////////////////////////********************************************************///////////////////////////
     ///////////////////////////********************************************************///////////////////////////
 
-    chauvesouris21 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(150,540),'chauve-souris').setVelocityX(250).setVelocityY(250).setBounce(1);
-    chauvesouris22 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(150,540),'chauve-souris').setVelocityX(200).setVelocityY(200).setBounce(1);
+    chauvesouris21 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(150,540),'chauve-souris').setVelocityX(150).setVelocityY(150).setBounce(1);
+    chauvesouris22 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(150,540),'chauve-souris').setVelocityX(150).setVelocityY(150).setBounce(1);
     chauvesouris23 = this.physics.add.sprite(Phaser.Math.Between(50,750),Phaser.Math.Between(150,540),'chauve-souris').setVelocityX(150).setVelocityY(150).setBounce(1);
 
     this.anims.create({
