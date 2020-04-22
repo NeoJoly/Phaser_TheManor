@@ -192,7 +192,6 @@ class Piece_HautMilieu extends Phaser.Scene {
     trou_fin = this.physics.add.image(400,400,'trou_fin').setDepth(10).setScale(0.75);
 
     
-    son_horrorAmbience.mute = true;
 
 
 
@@ -346,6 +345,5 @@ class Piece_HautMilieu extends Phaser.Scene {
 
 function finDuJeu(joueur,trou_fin){
   this.sound.play('son_hitTrouFin',{volume: 0.2});
-  son_finAmbience.mute = true;
   this.scene.start('MenuFin');
 }

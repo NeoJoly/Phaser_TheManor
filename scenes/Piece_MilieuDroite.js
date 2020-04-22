@@ -233,7 +233,7 @@ class Piece_MilieuDroite extends Phaser.Scene {
     this.physics.add.collider(joueur,placard_bas);
     this.physics.add.collider(joueur,bibliotheque_bas);
 
-    this.physics.add.overlap(joueur,carte_collider,hitCarte,null,this);
+    if (cartetrouvee == 0) {this.physics.add.overlap(joueur,carte_collider,hitCarte,null,this);}
     
     this.physics.add.collider(joueur,viesupp2,hitCoeur2,null,this);
 
