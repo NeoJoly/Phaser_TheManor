@@ -390,134 +390,90 @@ class Piece_BasGauche extends Phaser.Scene {
 
     if (joueur.x>=105.5 && joueur.x<=345.5 && joueur.y<=220) {
       trou1.setVisible(true);
-    } else {
-      trou1.setVisible(false);
     }
 
     if (joueur.x>=425.5 && joueur.x<=665.5 && joueur.y<=220) {
       trou2.setVisible(true);
-    } else {
-      trou2.setVisible(false);
     }
 
     if (joueur.x<=105.5 && joueur.y<=360 || joueur.x<=185.5 && joueur.y>=220 && joueur.y<=290) {
       trou3.setVisible(true);
-    } else {
-      trou3.setVisible(false);
     }
 
     if (joueur.x<=345.5 && joueur.y>=220 && joueur.y<=290) {
       trou4.setVisible(true);
-    } else {
-      trou4.setVisible(false);
     }
 
     if (joueur.x>=425.5 && joueur.y>=220 && joueur.y<=290 || joueur.x>=505.5 && joueur.x<=585.5 && joueur.y<=360) {
       trou5.setVisible(true);
-    } else {
-      trou5.setVisible(false);
     }
 
     if (joueur.x>=585.5 && joueur.y>=220 && joueur.y<=290 || joueur.x>=665.5 && joueur.y<=360) {
       trou6.setVisible(true);
-    } else {
-      trou6.setVisible(false);
     }
 
     if (joueur.x>=105.5 && joueur.x<=345.5 && joueur.y>=290 && joueur.y<=360 || joueur.x>=185.5 && joueur.x<=265.5 && joueur.y<=430) {
       trou7.setVisible(true);
-    } else {
-      trou7.setVisible(false);
     }
 
     if (joueur.x>=265.5 && joueur.x<=345.5 && joueur.y>=290 && joueur.y<=360 || joueur.x>=345.5 && joueur.x<=425.5 && joueur.y>=220 && joueur.y<=430) {
       trou8.setVisible(true);
-    } else {
-      trou8.setVisible(false);
     }
 
     if (joueur.x>=505.5 && joueur.x<=585.5 && joueur.y>=290 && joueur.y<=360 || joueur.x>=425.5 && joueur.x<=505.5 && joueur.y>=220 && joueur.y<=430) {
       trou9.setVisible(true);
-    } else {
-      trou9.setVisible(false);
     }
 
     if (joueur.x<=265.5 && joueur.y>=360 && joueur.y<=430 || joueur.x>=105.5 && joueur.x<=185.5 && joueur.y>=290 && joueur.y<=360) {
       trou10.setVisible(true);
-    } else {
-      trou10.setVisible(false);
     }
 
     if (joueur.x>=425.5 && joueur.x<=505.5 && joueur.y>=360 && joueur.y<=430 || joueur.x>=505.5 && joueur.x<=585.5 && joueur.y>=290 && joueur.y<=360) {
       trou11.setVisible(true);
-    } else {
-      trou11.setVisible(false);
     }
 
     if (joueur.x>=665.5 && joueur.y>=360 && joueur.y<=430 || joueur.x>=585.5 && joueur.x<=665.5 && joueur.y>=290 && joueur.y<=500) {
       trou12.setVisible(true);
-    } else {
-      trou12.setVisible(false);
     }
 
     if (joueur.x<=105.5 && joueur.y>=430 && joueur.y<=500 || joueur.x>=105.5 && joueur.x<=185.5 && joueur.y>=500 && joueur.y<=570) {
       trou13.setVisible(true);
-    } else {
-      trou13.setVisible(false);
     }
 
     if (joueur.x>=185.5 && joueur.x<=265.5 && joueur.y>=360 && joueur.y<=570) {
       trou14.setVisible(true);
-    } else {
-      trou14.setVisible(false);
     }
 
     if (joueur.x<=345.5 && joueur.x>=265.5 && joueur.y>=360 && joueur.y<=570) {
       trou15.setVisible(true);
-    } else {
-      trou15.setVisible(false);
     }
 
     if (joueur.x>=345.5 && joueur.x<=425.5 && joueur.y>=360 && joueur.y<=430 || joueur.x>=425.5 && joueur.x<=505.5 && joueur.y>=430 && joueur.y<=500) {
       trou16.setVisible(true);
-    } else {
-      trou16.setVisible(false);
     }
 
     if (joueur.x>=425.5 && joueur.x<=665.5 && joueur.y>=430 && joueur.y<=500 || joueur.x>=505.5 && joueur.x<=585.5 && joueur.y>=500 && joueur.y<=570) {
       trou17.setVisible(true);
-    } else {
-      trou17.setVisible(false);
     }
 
     if (joueur.x>=265.5 && joueur.x<=505.5 && joueur.y>=500 && joueur.y<=570 || joueur.x>=345.5 && joueur.x<=425.5 && joueur.y>=570) {
       trou18.setVisible(true);
-    } else {
-      trou18.setVisible(false);
     }
 
     if (joueur.x>=585.5 && joueur.y>=500 && joueur.y<=570 || joueur.x>=665.5 && joueur.y>= 430) {
       trou19.setVisible(true);
-    } else {
-      trou19.setVisible(false);
     }
 
     if (joueur.x<=185.5 && joueur.y>=570 || joueur.x>=105.5 && joueur.x<=185.5 && joueur.y>=500) {
       trou20.setVisible(true);
-    } else {
-      trou20.setVisible(false);
     }
 
     if (joueur.x>=265.5 && joueur.x<=345.5 && joueur.y>=570 || joueur.x>=185.5 && joueur.x<=265.5 && joueur.y>=500) {
       trou21.setVisible(true);
-    } else {
-      trou21.setVisible(false);
     }
 
     if (joueur.x>=425.5 && joueur.x<=665.5 && joueur.y>=570 || joueur.x>=505.5 && joueur.x<=585.5 && joueur.y>=500) {
       trou22.setVisible(true);
-    } else {
-      trou22.setVisible(false);
     }
 
 
