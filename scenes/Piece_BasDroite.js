@@ -241,8 +241,8 @@ class Piece_BasDroite extends Phaser.Scene {
     // obstacles
 
     // trous
-    trou26 = this.physics.add.image(70,240,'trou').setVisible(false);
-    trou27 = this.physics.add.image(650,330,'trou').setVisible(false);
+    trou26 = this.physics.add.image(40,220,'trou').setVisible(false).setOrigin(0.1,0.1).setSize(60.8,48);
+    trou27 = this.physics.add.image(620,300,'trou').setVisible(false).setOrigin(0.1,0.1).setSize(60.8,48);
 
     // chauve-souris
     chauvesouris24 = this.physics.add.sprite(200,275,'chauve-souris');

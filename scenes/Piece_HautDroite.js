@@ -197,9 +197,9 @@ class Piece_HautDroite extends Phaser.Scene {
 
 
 
-    trou23 = this.physics.add.image(310,360,'trou').setVisible(false);
-    trou24 = this.physics.add.image(390,430,'trou').setVisible(false);
-    trou25 = this.physics.add.image(470,360,'trou').setVisible(false);
+    trou23 = this.physics.add.image(280,330,'trou').setVisible(false).setOrigin(0.1,0.1).setSize(60.8,48);
+    trou24 = this.physics.add.image(360,400,'trou').setVisible(false).setOrigin(0.1,0.1).setSize(60.8,48);
+    trou25 = this.physics.add.image(440,330,'trou').setVisible(false).setOrigin(0.1,0.1).setSize(60.8,48);
 
 
 
